@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .flex-between {
+    @apply flex justify-between align-middle;
+  }
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
